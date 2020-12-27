@@ -13,13 +13,21 @@ ESLint est un linter permettant d'analyser le code et de vérifier si les règle
 
 Ce linter, est le plus connu dans le monde du JavaScript/TypeScript pour ses multiples configurations.
 
+## Prettier
+
+## Husky
+
 ### Installation / Utilisation
 
 Cet outil, peut être installé soit au global ou au niveau du projet, dans les dépendances de développement *(--save-dev)* . Chaque projet **dispose de règles et d'outils différents**. Pour cela, je vous conseil de **l'installer au niveau du projet.** 
 
     npm i eslint --save-dev
 
-Comme Angular est un Framework orienté TypeScript, 
+Comme Angular est un Framework orienté TypeScript, il faut installer un plugin contenant tout un tas de règles spécifiques pour TypeScript.
 
+    npm install @typescript-eslint/eslint-plugin --save-dev
+
+Création d'un fichier de configuration permetant de
 https://dev.to/dreiv/using-eslint-and-prettier-with-vscode-in-an-angular-project-42ib?signin=true
 https://www.alexisjanvier.net/eslint-prettier
+https://www.daptontechnologies.com/angular-prettier-husky/
