@@ -1,2 +1,3 @@
 # angular-cleancode
- Implementation of tools to make life easier for an Angular developer
+ Mise en place d'outils afin de faciliter la vie d'un dévelopeur Angular
+
