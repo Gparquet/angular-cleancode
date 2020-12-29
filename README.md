@@ -70,7 +70,7 @@ Comme Angular est un Framework orienté TypeScript, il faut installer un plugin 
 
 #### 4°) ESLint 
 
-##### 4.1°) Ajouter un fichier `.eslintrc.json` à la racine du projet, puis ajouter cette configuration : 
+##### 4.1°) Ajouter un fichier `.eslintrc.json` à la racine du projet, puis ajouter cette configuration :
 
     {
 	  "parser": "@typescript-eslint/parser", // Spécification du parser ESLint
