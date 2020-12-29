@@ -8,7 +8,7 @@ Le but est de déléguer les tâches de "clean code" à ces outils permettant ai
 
 [![ESLint logo](./Images/eslint.png)](https://eslint.org/  "Redirect to eslint site")
 
-ESLint est un linter permettant d'analyser le code et de vérifier si les règles de syntaxe et de qualité spécifiées par un ensemble de personne sont respectés.
+ESLint est un linter permettant d'analyser le code et de vérifier si les règles de syntaxe et de qualité spécifiée par un ensemble de personne sont respectées.
 
 Ce linter, est le plus connu dans le monde du JavaScript/TypeScript pour ses multiples configurations.
 
@@ -24,9 +24,9 @@ Le but de prettier est de formater automatiquement le code selon des règles dé
 
 > Pour information, **un "hook"** est un **script qui s'exécute de manière automatique** lorsqu'un événement se produit. Dans notre cas, les événements proviennent de git.
 
-Nous pouvons ajouter des hooks sur à peut-près sur tous les événements : 
+Nous pouvons ajouter des hooks sur à peu près sur tous les événements :
 
--  applypatch-msg
+-   applypatch-msg
 -   pre-applypatch
 -   post-applypatch
 -   pre-commit
@@ -53,7 +53,7 @@ Cet outil, peut être installé soit au global ou au niveau du projet, dans les 
 
     npm i --save-dev eslint
 
-Comme Angular est un Framework orienté TypeScript, il faut installer un plugin contenant tout un tas de règles spécifiques pour TypeScript.
+N'oublions pas qu'Angular est un Framework orienté TypeScript. Il faut donc installer un plugin contenant tout un tas de règles spécifiques à TypeScript.
 
     npm install --save-dev @typescript-eslint/eslint-plugin
 
